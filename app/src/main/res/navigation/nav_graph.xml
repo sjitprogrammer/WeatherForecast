@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/currentWeatherFragment">
+
+    <fragment
+        android:id="@+id/currentWeatherFragment"
+        android:name="com.aodev.weatherforecast.CurrentWeatherFragment"
+        android:label="fragment_current_weather"
+        tools:layout="@layout/fragment_current_weather">
+
+        <action
+            android:id="@+id/action_currentWeatherFragment_to_forecastFragment"
+            app:destination="@id/forecastFragment">
+        </action>
+
+    </fragment>
+    <fragment
+        android:id="@+id/forecastFragment"
+        android:name="com.aodev.weatherforecast.ForecastFragment"
+        android:label="fragment_forecast"
+        tools:layout="@layout/fragment_forecast">
+        <argument
+            android:name="cityName"
+            android:defaultValue="thailand"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_forecastFragment_to_currentWeatherFragment"
+            app:destination="@id/currentWeatherFragment" />
+        <argument
+            android:name="isFahrenheit"
+            app:argType="boolean"
+            android:defaultValue="false" />
+
+    </fragment>
+</navigation>
