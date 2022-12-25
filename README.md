@@ -29,9 +29,13 @@ and 5 day weather forecast / 3 hour from : https://openweathermap.org/forecast5#
 
 # Output
 
-<video src='https://user-images.githubusercontent.com/60668157/209477837-08a9d198-d6b3-4dba-aa7e-eae53a39d8a0.mov' width=180/>
-<br>
-<video src='https://user-images.githubusercontent.com/60668157/209477860-4dec8549-d483-4721-b463-1591e2ba1177.mov' width=180/>
+
+https://user-images.githubusercontent.com/60668157/209478211-1ce4e983-2b85-4a53-9dec-6375528b0362.mov
+
+
+
+
+https://user-images.githubusercontent.com/60668157/209478220-8867e25e-6637-4764-934e-657a88c28dd2.mov
 
 
 
