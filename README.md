@@ -7,7 +7,7 @@ Android app with MVVM architecture
 <br>
 
 APIs to fetch 
-Current Current weather data from : https://openweathermap.org/current#name
+Current weather data from : https://openweathermap.org/current#name
 <br>
 and 5 day weather forecast / 3 hour from : https://openweathermap.org/forecast5#name5
 
