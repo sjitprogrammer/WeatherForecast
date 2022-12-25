@@ -60,7 +60,6 @@ constructor(
     }
 
     fun searchCity(city: String) {
-        Log.e("city", city)
         getWeather(city)
         getForecast(city)
     }
