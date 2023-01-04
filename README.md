@@ -15,7 +15,7 @@ and 5 day weather forecast / 3 hour from : https://openweathermap.org/forecast5#
 # Libraries and tools
 
 - Kotlin language
-- Design Patten with MVVM
+- Design Pattern with MVVM
 - Dependency Injection Dagger Hilt
 - Coroutine
 - Constraint layout
